@@ -1,4 +1,4 @@
 export const RouteNames = {
-    HOME: "HOME",
+    HOME: 'HOME',
     AUTH: 'AUTH',
 }

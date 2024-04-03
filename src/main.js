@@ -1,12 +1,10 @@
 import { createApp } from 'vue'
 import './style.css'
-import App from './App.vue'
-
-import {createMemoryHistory, createRouter} from 'vue-router'
-
+import { createMemoryHistory, createRouter } from 'vue-router'
 import AuthPage from '@/pages/AuthPage.vue'
 import HomePage from '@/pages/HomePage.vue'
-import {RouteNames} from "@/consts/route-names.js";
+import { RouteNames } from '@/consts/route-names.js'
+import App from './App.vue'
 
 const routes = [
     { path: '/', name: RouteNames.HOME, component: HomePage },
